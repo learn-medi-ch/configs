@@ -13,7 +13,7 @@
       },
       "message": {
         "payload": {
-          "role-id": "member",
+          "course-role-name": "member",
           "ref-ids": [
             81,
             82
