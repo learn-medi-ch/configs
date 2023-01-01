@@ -13,8 +13,8 @@
       },
       "message": {
         "payload": {
-          "course-role-name": "member",
-          "ref-ids": [
+          "courseRoleName": "member",
+          "refIds": [
             81,
             82
           ]
