@@ -1,6 +1,6 @@
 "tasks": [
     {
-      "address": "flux-eco-ilias-user-api/{user-id-type}/{user-id}/assign-courses-by-ref-ids",
+      "address": "flux-eco-ilias-user-api/{user-id-type}/{user-id}/remove-courses-by-ref-ids",
       "attributes": {
         "role-id": "member",
         "ref-ids": [81,82]
