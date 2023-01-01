@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "server": "http://flux-eco-ilias-user-orbital:9501",
+      "address": "{user-id-type}/{user-id}/remove-courses-by-ref-ids",
+      "parameters": {
+        "user-id-type": {
+          "location": "$message.payload#/userId/idType"
+        },
+        "user-id": {
+          "location": "$message.payload#/userId/id"
+        }
+      },
+      "message": {
+        "payload": {
+          "role-id": "member",
+          "ref-ids": [
+            81,
+            82
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "server": "http://flux-eco-ilias-user-orbital:9501",
+      "address": "create_or_update_user",
+      "message": {
+        "payload": {
+          "location": "$message.payload#"
+        }
+      }
+    }
+  ]
+}
