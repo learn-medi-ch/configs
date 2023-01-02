@@ -2,7 +2,7 @@
   "tasks": [
     {
       "address": {
-        "path": "remove-courses-by-ref-ids",
+        "path": "unsubscribe-from-courses",
         "parameters": [],
         "server": {
           "url": "flux-eco-ilias-user-orbital:9501",
@@ -12,7 +12,8 @@
       "message": {
         "$merge": "$message#",
         "courseRoleName": "member",
-        "ref-ids": [
+        "courseIdType": "ref-id",
+        "courseIds": [
           81,
           82
         ]
