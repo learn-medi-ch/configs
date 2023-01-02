@@ -1,8 +1,8 @@
 {
   "tasks": {
-    "additional-field-value-changed": {
+    "handle-subscriptions": {
       "address": {
-        "path": "additional-field-value-changed",
+        "path": "handle-subscriptions",
         "parameters": null,
         "server": {
           "url": "medi-eco-ilias-user-orchestrator-orbital:9501",
@@ -10,7 +10,8 @@
         }
       },
       "message": {
-        "$location": "{$message}"
+        "$merge": "{$message}",
+        "roleId": "faculty-vocational-trainer"
       }
     }
   }
