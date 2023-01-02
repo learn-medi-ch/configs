@@ -5,7 +5,7 @@
         "path": "additional-field-value-changed",
         "parameters": [],
         "server": {
-          "url": "medi-eco-ilias-user-orchestrator-orbital",
+          "url": "medi-eco-ilias-user-orchestrator-orbital:9501",
           "protocol": "http"
         }
       },
