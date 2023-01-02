@@ -1,11 +1,11 @@
 {
   "tasks": {
-    "handle-subscriptions": {
+    "subscribe-to-class-course": {
       "required": [
         "{$message.newAdditionalFieldValue}"
       ],
       "address": {
-        "path": "subscribe-to-courses",
+        "path": "subscribe-user-to-course",
         "parameters": null,
         "server": {
           "url": "flux-eco-ilias-user-orbital:9501",
@@ -16,8 +16,29 @@
         "$transform": {
           "userId": "{$message.userId}",
           "courseRoleName": "member",
-          "courseIdType": "title",
-          "courseIds": "{$message.newAdditionalFieldValue}"
+          "courseIdType": "import-id",
+          "courseId": "{$message.newAdditionalFieldValue}"
+        }
+      }
+    },
+    "subscribe-to-degree-program": {
+      "required": [
+        "{$message.newAdditionalFieldValue}"
+      ],
+      "address": {
+        "path": "subscribe-user-to-course",
+        "parameters": null,
+        "server": {
+          "url": "flux-eco-ilias-user-orbital:9501",
+          "protocol": "http"
+        }
+      },
+      "messageToDispatch": {
+        "$transform": {
+          "userId": "{$message.userId}",
+          "courseRoleName": "member",
+          "courseIdType": "import-id",
+          "courseId": "{$message.newAdditionalFieldValue}"
         }
       }
     }

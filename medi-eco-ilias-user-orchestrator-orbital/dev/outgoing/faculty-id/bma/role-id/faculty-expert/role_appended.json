@@ -1,8 +1,8 @@
 {
   "tasks": {
-    "subscribe-to-roles": {
+    "subscribe-user-to-roles": {
       "address": {
-        "path": "subscribe-to-roles",
+        "path": "subscribe-user-to-roles",
         "parameters": null,
         "server": {
           "url": "flux-eco-ilias-user-orbital:9501",

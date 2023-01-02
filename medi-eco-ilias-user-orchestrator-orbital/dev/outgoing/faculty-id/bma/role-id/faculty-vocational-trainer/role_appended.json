@@ -1,8 +1,8 @@
 {
   "tasks": {
-    "subscribe-to-courses": {
+    "subscribe-user-to-courses": {
       "address": {
-        "path": "subscribe-to-courses",
+        "path": "subscribe-user-to-courses",
         "parameters": null,
         "server": {
           "url": "flux-eco-ilias-user-orbital:9501",

@@ -1,8 +1,8 @@
 {
   "tasks": {
-    "unsubscribe-from-courses": {
+    "unsubscribe-user-from-courses": {
       "address": {
-        "path": "unsubscribe-from-courses",
+        "path": "unsubscribe-user-from-courses",
         "parameters": null,
         "server": {
           "url": "flux-eco-ilias-user-orbital:9501",
