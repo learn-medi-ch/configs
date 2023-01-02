@@ -1,17 +1,17 @@
 {
-  "tasks": [
-    {
+  "tasks": {
+    "additional-field-value-changed": {
       "address": {
         "path": "additional-field-value-changed",
-        "parameters": [],
+        "parameters": null,
         "server": {
           "url": "medi-eco-ilias-user-orchestrator-orbital:9501",
           "protocol": "http"
         }
       },
       "message": {
-        "$ref": "$message#"
+        "$location": "{$message}"
       }
     }
-  ]
+  }
 }
