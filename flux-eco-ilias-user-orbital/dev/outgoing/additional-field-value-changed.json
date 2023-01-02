@@ -2,10 +2,10 @@
   "tasks": [
     {
       "address": {
-        "path": "flux-eco-ilias-user-orbital/additional-field-value-changed",
+        "path": "additional-field-value-changed",
         "parameters": [],
         "server": {
-          "url": "127.0.0.15",
+          "url": "medi-eco-ilias-user-orchestrator-orbital",
           "protocol": "http"
         }
       },
