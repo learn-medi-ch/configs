@@ -9,7 +9,7 @@
           "protocol": "http"
         }
       },
-      "message": {
+      "messageToDispatch": {
         "$merge": "{$message}",
         "courseRoleName": "member",
         "courseIdType": "ref-id",
