@@ -1,13 +1,16 @@
 {
   "tasks": [
     {
-      "server": "http://127.0.0.15",
-      "address": "flux-eco-ilias-user-orbital/additional-field-value-changed",
-      "parameters": [],
-      "message": {
-        "payload": {
-          "location": "$message.payload#"
+      "address": {
+        "path": "flux-eco-ilias-user-orbital/additional-field-value-changed",
+        "parameters": [],
+        "server": {
+          "url": "127.0.0.15",
+          "protocol": "http"
         }
+      },
+      "message": {
+        "$ref": "$message#"
       }
     }
   ]
