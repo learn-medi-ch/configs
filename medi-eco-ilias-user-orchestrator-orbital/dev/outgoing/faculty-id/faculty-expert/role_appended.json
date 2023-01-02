@@ -1,0 +1,23 @@
+{
+  "tasks": {
+    "subscribe-to-courses": {
+      "address": {
+        "path": "subscribe-to-courses",
+        "parameters": null,
+        "server": {
+          "url": "flux-eco-ilias-user-orbital:9501",
+          "protocol": "http"
+        }
+      },
+      "message": {
+        "$merge": "{$message}",
+        "courseRoleName": "member",
+        "courseIdType": "ref-id",
+        "courseIds": [
+          81,
+          82
+        ]
+      }
+    }
+  }
+}
