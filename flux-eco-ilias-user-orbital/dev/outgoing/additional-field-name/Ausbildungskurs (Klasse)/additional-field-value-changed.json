@@ -26,7 +26,7 @@
         "{$message.newAdditionalFieldValue}"
       ],
       "address": {
-        "path": "subscribe-user-to-course",
+        "path": "subscribe-user-to-course-tree",
         "parameters": null,
         "server": {
           "url": "flux-eco-ilias-user-orbital:9501",
@@ -37,8 +37,10 @@
         "$transform": {
           "userId": "{$message.userId}",
           "courseRoleName": "member",
-          "courseIdType": "import-id",
-          "courseId": "{$message.newAdditionalFieldValue}"
+          "categoryId": {
+            "id": "{$message.newAdditionalFieldValue}",
+            "idType": "import-id"
+          }
         }
       }
     }
