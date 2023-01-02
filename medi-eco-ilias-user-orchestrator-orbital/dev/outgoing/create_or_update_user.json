@@ -1,13 +1,16 @@
 {
   "tasks": [
     {
-      "server": "http://flux-eco-ilias-user-orbital:9501",
-      "address": "create-or-update-user",
-      "parameters": [],
-      "message": {
-        "payload": {
-          "location": "$message.payload#"
+      "address": {
+        "path": "create-or-update-user",
+        "parameters": [],
+        "server": {
+          "url": "flux-eco-ilias-user-orbital:9501",
+          "protocol": "http"
         }
+      },
+      "message": {
+        "$ref": "$message#"
       }
     }
   ]
