@@ -1,8 +1,8 @@
 {
   "tasks": {
-    "subscribe-to-courses": {
+    "subscribe-to-roles": {
       "address": {
-        "path": "subscribe-to-courses",
+        "path": "subscribe-to-roles",
         "parameters": null,
         "server": {
           "url": "flux-eco-ilias-user-orbital:9501",
@@ -11,11 +11,9 @@
       },
       "message": {
         "$merge": "{$message}",
-        "courseRoleName": "member",
-        "courseIdType": "ref-id",
-        "courseIds": [
-          81,
-          82
+        "roleIdType": "obj-id",
+        "roleIds": [
+          402
         ]
       }
     }
