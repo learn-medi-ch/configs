@@ -16,8 +16,10 @@
         "$transform": {
           "userId": "{$message.userId}",
           "courseRoleName": "member",
-          "courseIdType": "import-id",
-          "courseId": "{$message.newAdditionalFieldValue}"
+          "courseId": {
+            "id": "{$message.newAdditionalFieldValue}",
+            "idType": "import-id"
+          }
         }
       }
     },
