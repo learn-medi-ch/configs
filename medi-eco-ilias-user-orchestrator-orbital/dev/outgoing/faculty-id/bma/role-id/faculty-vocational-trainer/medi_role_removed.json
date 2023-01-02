@@ -11,7 +11,7 @@
       },
       "message": {
         "$merge": "$message#",
-        "role-id": "member",
+        "courseRoleName": "member",
         "ref-ids": [
           81,
           82
