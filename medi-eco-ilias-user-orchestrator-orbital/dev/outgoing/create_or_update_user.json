@@ -10,7 +10,7 @@
         }
       },
       "message": {
-        "$ref": "$message#"
+        "$location": "{$message}"
       }
     }
   ]
