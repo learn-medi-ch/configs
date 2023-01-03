@@ -17,7 +17,7 @@
           "userId": "{$message.userId}",
           "courseRoleName": "member",
           "courseId": {
-            "id": "{$message.newAdditionalFieldValue}",
+            "id": "crs_{$message.newAdditionalFieldValue}",
             "idType": "import-id"
           }
         }
@@ -40,7 +40,7 @@
           "userId": "{$message.userId}",
           "courseRoleName": "member",
           "categoryId": {
-            "id": "{$message.newAdditionalFieldValue}",
+            "id": "cat_{$message.newAdditionalFieldValue}",
             "idType": "import-id"
           }
         }
