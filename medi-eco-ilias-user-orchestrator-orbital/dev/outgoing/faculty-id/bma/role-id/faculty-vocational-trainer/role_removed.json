@@ -12,10 +12,9 @@
       "messageToDispatch": {
         "$merge": "{$message}",
         "courseRoleName": "member",
-        "courseIdType": "ref-id",
+        "courseIdType": "import-id",
         "courseIds": [
-          81,
-          82
+          "crs_bma_vocational_trainer"
         ]
       }
     }

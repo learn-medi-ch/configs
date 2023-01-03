@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "subscribe-user-to-roles": {
+    "subscribe-user-to-local-expert-role": {
       "address": {
         "path": "subscribe-user-to-roles",
         "parameters": null,

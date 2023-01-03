@@ -14,7 +14,8 @@
         "courseRoleName": "member",
         "courseIdType": "ref-id",
         "courseIds": [
-          2911
+          81,
+          82
         ]
       }
     }
