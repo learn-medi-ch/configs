@@ -1,1 +1,1 @@
-# flux-eco-message-dispatcher-sidecar-configs
+# flux-eco-dispatcher-synapse-configs
