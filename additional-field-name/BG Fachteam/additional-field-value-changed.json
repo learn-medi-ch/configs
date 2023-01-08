@@ -5,7 +5,7 @@
         "path": "handle-subscriptions",
         "parameters": null,
         "server": {
-          "host": "10.100.7.254",
+          "host": "medi-eco-ilias-user-orchestrator-orbital",
           "port": "9501",
           "protocol": "http"
         }

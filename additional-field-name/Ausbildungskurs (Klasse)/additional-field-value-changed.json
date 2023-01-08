@@ -8,7 +8,7 @@
         "path": "subscribe-user-to-course",
         "parameters": null,
         "server": {
-          "host": "10.100.10.252",
+          "host": "flux-eco-ilias-user-orbital",
           "port": "9501",
           "protocol": "http"
         }
@@ -32,7 +32,7 @@
         "path": "subscribe-user-to-course-tree",
         "parameters": null,
         "server": {
-          "host": "10.100.10.252",
+          "host": "flux-eco-ilias-user-orbital",
          "port": "9501",
           "protocol": "http"
         }
