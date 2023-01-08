@@ -1,15 +1,16 @@
 {
-  "tasks": {
+  "nextMessages": {
     "handle-subscriptions": {
       "address": {
         "path": "handle-subscriptions",
         "parameters": null,
         "server": {
-          "url": "medi-eco-ilias-user-orchestrator-orbital:9501",
+          "host": "medi-eco-ilias-user-orchestrator-orbital",
+          "port": "9501",
           "protocol": "http"
         }
       },
-      "messageToDispatch": {
+      "messagePayload": {
         "$merge": "{$message}",
         "roleId": "faculty-student"
       }
